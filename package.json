@@ -1,5 +1,6 @@
 {
   "name": "vanilla",
+  "homepage": "https://vakulina.github.io/circular-chart/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
