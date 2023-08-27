@@ -1,21 +1,29 @@
-
+body{
+  margin: 0;
+}
 #app {
-  max-width: 1280px;
+  width: 100%;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 :root {
---red:#EB5757;
---orange: #F2994A;
---green-3: #6FCF97;
---purple-1: #9B51E0;
---blue-1: #2F80ED;
---blue-3: #56CCF2;
---green-1: #219653;
---yellow: #F2C94C;
+  --red: #EB5757;
+  --orange: #F2994A;
+  --green-3: #6FCF97;
+  --purple-1: #9B51E0;
+  --blue-1: #2F80ED;
+  --blue-3: #56CCF2;
+  --green-1: #219653;
+  --yellow: #F2C94C;
+  --black: #1E1E1E;
 }
-
